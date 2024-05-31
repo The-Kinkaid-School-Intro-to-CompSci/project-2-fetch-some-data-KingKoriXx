@@ -1,21 +1,47 @@
-/** CSS Reset */
-/* You can keep or remove this, if you'd like */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+h2 {
+  text-align: left;
+  color: rgb(236, 236, 236);
+  padding-top: 2cm;
+  border-style: block;
+  border: blue;
+  background-color: rgb(0, 0, 0);
+
 }
 
-* {
-  margin: 0;
+button{ 
+  background-color: rgb(166, 208, 166);
+  transition: .3 ease all;
 }
 
-/** You can define your own CSS variables here */
-:root {
-  /** Example: */
-  --main-background: rgb(61, 125, 202);
+button:hover{
+  background-color: rgb(110, 177, 199);
+  transition: .3 ease all;
+  border: none;
+  background: #095514;
+  color: #f1f5f3;
+  cursor: pointer;
+
 }
 
-/** Project styling */
+body{
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
-/** Your styles go here */
+
+.content {
+  position: fixed;
+  bottom: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
